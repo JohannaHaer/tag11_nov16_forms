@@ -26,6 +26,10 @@ section {
     max-width: 12vw;
 }
 
+.langugages select {
+    width: 3vw;
+}
+
 /* Styling of buttons */
 
 .buttons {
@@ -41,6 +45,8 @@ section {
 input[type="submit"] , input[type="reset"] {
     padding: 0.2vh 0.5vw;
 }
+
+/* Styling of radio-buttons and checkboxes */
 
 input[type="radio"] , input[type="checkbox"] {
     accent-color: rgb(90, 90, 234);
