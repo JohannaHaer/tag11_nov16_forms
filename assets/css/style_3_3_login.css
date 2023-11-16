@@ -1,0 +1,73 @@
+/* Global Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    background-image: url('../img/eberhard-grossgasteiger-6fCfkt11-eQ-unsplash.jpg');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --white-color: white;
+    --black-color: black;
+    --gray-color: rgb(188, 186, 186);
+    --gray-hover-color: rgb(114, 112, 112);
+    --button-color-right: rgb(0, 98, 128);
+    --button-color-left: rgba(0, 90, 128, 0.439);
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    width: 400px;
+    height: 600px;
+    background-color: var(--white-color);
+    padding: 3vh 1vw 4vh 1vw;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px var(--gray-color);
+}
+
+.register_login {
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+    padding: 1.5vh 3vw;
+    width: 10vw;
+    border-radius: 40px;
+    background: linear-gradient(to left, var(--button-color-left), var(--button-color-right));
+    margin-bottom: 3vh;
+}
+
+.register_login input {
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.register_button {
+    color: var(--white-color);
+}
+
+.login_button {
+    color: var(--gray-color);
+}
+
