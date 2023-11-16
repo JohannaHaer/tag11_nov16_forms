@@ -7,6 +7,8 @@
     font-family: sans-serif;
 }
 
+/* General Styling of the Registration Form with margin, flex and padding */
+
 form {
     margin: 4vh 4vw;
 }
@@ -22,6 +24,8 @@ section {
     justify-content: flex-start;
     margin-bottom: 1vh;
 }
+
+/* correction of the placement with margin */
 
 label {
     margin-right: 1vw;
@@ -55,6 +59,8 @@ label {
 .country select {
     margin-left: 0.45vw;
 }
+
+/* Styling of buttons */
 
 .buttons {
     display: flex;
