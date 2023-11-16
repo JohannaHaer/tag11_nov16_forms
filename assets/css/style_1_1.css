@@ -1,0 +1,66 @@
+/* Global Styling */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Positioning of the body and all sections with flex */
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+section {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+/* Styling of labels with margin to input-fields and color-red for mandatory entries */
+
+label {
+    margin-bottom: 0.1vh;
+}
+
+span {
+    color: red;
+}
+
+/* Padding of input und select field */
+
+input, select {
+    padding: 0.5vh 0.5vw;
+} 
+
+/* Styling of Name-Section input-fields */
+
+.name div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name div input {
+    display: block;
+    width: 49%;
+}
+
+/* Styling of Submit-button with background-change from light blue to dark blue */
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: rgb(30, 150, 187);
+    border: none;
+    height: 4vh;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(19, 19, 103);
+}
